@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul { /* Removing the defaults of unordered list */
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+
+li { /* Removing the defaults of list */
+    list-style: none;
+}
+
+a {  /* Removing the defaults of anchor */
+    text-decoration: none;
+}
+
+
+/*
+Dark background color (header, hero section and footer): #1F2937
+Logo text:
+    Font size: 24px
+    Color: #F9FAF8
+Hero section main text (“This website is awesome”):
+    Font size: 48px
+    Color: #F9FAF8
+    Weight: 900
+Hero secondary text (“This website has some subtext…”) and header links:
+    Font size: 18px
+    Color: #E5E7EB
+Button and “Call to action” background color: #3882F6
+Information heading:
+    Font size: 36px
+    Color: #1F2937
+    Weight: 900
+Quote:
+    Background color: #E5E7EB
+    Font size: 36px
+    Color: #1F2937
+    Weight: 300
+    Font style: italic */
