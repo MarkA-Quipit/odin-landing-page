@@ -25,14 +25,48 @@ li { /* Removing the defaults of list */
 
 a {  /* Removing the defaults of anchor */
     text-decoration: none;
+    color: lightgray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    background-color: #1F2937;
+}
+
+#logo-text {
+    font-size: 1.5rem;
+    color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
 }
 
 
+
+
+
+/* Added for now, will be finished later on */
+.hero-section {
+    background-color: #1F2937;
+}
+
+
+footer {
+    background-color: #1F2937;
+}
+
+
+
+
+
+
 /*
-Dark background color (header, hero section and footer): #1F2937
-Logo text:
-    Font size: 24px
-    Color: #F9FAF8
+
 Hero section main text (“This website is awesome”):
     Font size: 48px
     Color: #F9FAF8
