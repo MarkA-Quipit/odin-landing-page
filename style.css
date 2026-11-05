@@ -25,7 +25,8 @@ li { /* Removing the defaults of list */
 
 a {  /* Removing the defaults of anchor */
     text-decoration: none;
-    color: lightgray;
+    font-size: 1.125rem;
+    color: #E5E7EB;
 }
 
 header {
@@ -47,15 +48,52 @@ header {
 }
 
 
+.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    padding: 10% 15%;
+    gap: 40px;
+}
+
+.hero-section h1 { 
+    font-size: 3rem;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.125rem;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.hero-texts button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 45px;
+    margin-top: 10px;
+}
+
+.hero-img {
+    flex-shrink: 0;
+    width: 50%;
+    height: auto;
+    background-color: rgba(148, 148, 148, 0.902);
+}
+
+
+
 
 
 
 /* Added for now, will be finished later on */
-.hero-section {
-    background-color: #1F2937;
-}
-
-
 footer {
     background-color: #1F2937;
 }
