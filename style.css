@@ -84,7 +84,9 @@ header {
 .hero-img {
     flex-shrink: 0;
     width: 50%;
-    height: auto;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
     background-color: rgba(148, 148, 148, 0.902);
 }
 
@@ -93,18 +95,17 @@ header {
     flex-direction: column;
     align-items: center;
     align-content: center;
-    padding: 1% 15%;
 }
 
 .random-section h2 {
     font-size: 2.25rem;
     font-weight: 900;
     color: #1F2937;
+    padding: 1% 0%;
 }
 
 .random-cards {
     display: flex;
-    padding: 1% 0%;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -113,17 +114,18 @@ header {
 
 .card {
     flex-wrap: wrap;
-    width: 10vw;
+    width: 15vw;
 }
 
 .random-cards img {
-    width: 9vw;
+    width: 15vw;
     height: 15vh;
-    border: blue;
+    border: 3px solid blue;
     border-radius: 15px;
-    border-width: 5px;
 }
 
+
+/* Fix padding of all it doesnt look like the desired outcome */
 
 
 
