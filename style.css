@@ -195,33 +195,13 @@ header {
 }
 
 
-/* Added for now, will be finished later on */
+/* Footer */
 footer {
+    display: flex;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: 200;
     background-color: #1F2937;
+    justify-content: center;
+    padding: 3% 0%;
 }
-
-
-
-
-
-
-/*
-
-Hero section main text (“This website is awesome”):
-    Font size: 48px
-    Color: #F9FAF8
-    Weight: 900
-Hero secondary text (“This website has some subtext…”) and header links:
-    Font size: 18px
-    Color: #E5E7EB
-Button and “Call to action” background color: #3882F6
-Information heading:
-    Font size: 36px
-    Color: #1F2937
-    Weight: 900
-Quote:
-    Background color: #E5E7EB
-    Font size: 36px
-    Color: #1F2937
-    Weight: 300
-    Font style: italic */
