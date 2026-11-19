@@ -29,11 +29,12 @@ a {  /* Removing the defaults of anchor */
     color: #E5E7EB;
 }
 
+/* Header Section */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 15%;
+    padding: 0 15%;
     background-color: #1F2937;
 }
 
@@ -47,7 +48,13 @@ header {
     gap: 15px;
 }
 
+.links li a {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
 
+
+/* Hero Section */
 .hero-section {
     background-color: #1F2937;
     display: flex;
@@ -90,6 +97,8 @@ header {
     background-color: rgba(148, 148, 148, 0.902);
 }
 
+
+/* Random Section */
 .random-section {
     display: flex;
     flex-direction: column;
