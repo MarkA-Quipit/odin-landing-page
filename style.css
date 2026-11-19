@@ -162,36 +162,36 @@ header {
 /* Sign Section */
 .sign-section {
     display: flex;
+    justify-content: center;
     padding: 10% 15%;
 }
 
 .box {
     display: flex;
     width: 100vw;
-    align-items: center;
-    background-color: #3882F6;
-    border-radius: 10px;
-    padding: 5% 10%;
-    justify-content: center;
-    gap: 200px;
-}
-
-.box-texts {
     color: white;
-    margin: 0;
+    border-radius: 10px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 10%;
 }
 
 .box-texts h3, p {
     margin: 0;
 }
 
+.box-texts p {
+    font-weight: 200;
+}
+
 .box button {
-    width: 15%;
-    height: 80%;
-    background-color: #3882F6;
-    border-radius: 10px;
+    width: 10vw;
+    height: 5vh;
     color: white;
     border-color: white;
+    border-radius: 10px;
+    background-color: #3882F6;
 }
 
 
