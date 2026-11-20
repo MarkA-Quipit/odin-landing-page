@@ -94,9 +94,8 @@ header {
     flex-shrink: 0;
     width: 50%;
     height: 30vh;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(148, 148, 148, 0.902);
+    object-fit: cover;
+    object-position: 50% 60%;
 }
 
 
